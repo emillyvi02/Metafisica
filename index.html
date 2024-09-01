@@ -9,123 +9,229 @@
 </head>
 
 <body>
-    <nav>
 
-        <ul>
-            <li>
-                <a>Informações</a>
-            </li>
-        </ul>
-
-    </nav>
+    <div class="navbar">
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="contato.html">Contato</a>
+    </div>
 
     <h1> Metafísica </h1>
-    <h2> O que é? </h2>
-    <h2> Qual a origem? </h2>
-    <h2> Quais os principais filósofos? </h2>
-    <h2> Obras relacionadas a Metafísica. </h2>
 
-    A Metafísica é uma das áreas da filosofia que consiste em compreender toda a natureza da realidade, do ser, da
-    existência e do universo como um todo. Ou seja, ela vai totalmente além do que é tangível. Assim, optando por uma
-    lógica mais complexa do que realmente existe.
+    <div class="carousel-container">
 
-    <p> O termo "metafísica" tem suas raízes na Grécia Antiga, porque Aristóteles criou o termo "meta ta physika" para
-        se referir aos estudos que vão além da física, ou melhor, além do mundo material. A partir disso, a metafísica
-        se tornou uma das áreas centrais da filosofia ocidental e foi abordada por vários filósofos ao longo da
-        história. </p>
+        <div class="carousel-slide fade">
+            <img src="/img/universo.png" alt="Imagem 1" class="carousel-image">
+        </div>
+        <div class="carousel-slide fade">
+            <img src="/img/escada.png" alt="Imagem 2" class="carousel-image">
+        </div>
+        <div class="carousel-slide fade">
+            <img src="/img/espaço.jpg" alt="Imagem 3" class="carousel-image">
+        </div>
 
-    Os principais filósofos que contribuíram para o grande desenvolvimento da metafísica, podemos citar:
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <p>
-        Platão: Afirmava que as ideias universais é a verdadeira realidade por trás do que realmente vemos. <br>
+        <div class="carousel-indicators">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
 
-        <img src="img/platao.jpeg" alt="platao">
-    </p>
-    <h5> 428/427 a.C - 348/347 a.C </h5>
-<p>
-    Aristóteles: Discutiu sobre a essência e a causa de tudo na natureza. <br>
-    
-        <img src="img/aristoteles.jpeg" alt="aristoteles">
-    </p>
-    <h5> 384 a.C - 322 a.C </h5>
-<p>
-    Descartes: Pensou sobre a mente e o corpo serem coisas distintas. <br>
-    
-        <img src="img/descartes.jpeg" alt="descartes">
-    </p>
-    <h5> 1596-1650. </h5>
-<p>
-    Kant: Descobriu os limites do que podemos saber sobre a realidade, ou seja, todo conhecimento humano. <br>
-    
-        <img src="img/kant.jpeg" alt="Kant">
-    </p>
-    <h5> 1724-1804. </h5>
-<p>
-    Hegel: Desenvolveu uma visão da realidade em constante mudança. <br>
-    
-        <img src="img/hegel.jpeg" alt="hegel">
-    </p>
-    <h5> 1770-1831. </h5>
-<p>
-    Plotino: Citou sobre uma única fonte de toda a realidade. <br>
-    
-        <img src="img/plotino.jpeg" alt="plotino">
-    </p>
-    <h5> 270 d.C </h5>
-<p>
-    Spinoza: Propôs que tudo é uma expressão de uma única substância. <br>
-    
-        <img src="img/spinoza.jpeg" alt="spinoza">
-    </p>
-    <h5> 1632-1677. </h5>
-<p>
-    Leibniz: Criou a ideia das mônadas como unidades fundamentais da realidade. <br>
-    
-        <img src="img/Leibniz.jpeg" alt="Leibniz">
-    </p>
-    <h5> 1646-1716. </h5>
-<p>
-    Nietzsche: Questionou a busca por verdades absolutas. Além disso, contendo algumas ideias centradas na moralidade em
-    si e na interpretação da realidade diante de uma perspectiva individual. <br>
-    
-        <img src="img/Nietzsche.jpeg" alt="Nietzsche">
-    </p>
-    <h5>
-        1844-1900.
-    </h5>
+    <script src="js/script.js"></script>
 
-    <h2> Agora que você possui um pouco de compreensão do que é a metafísica.
-        <br> Veja algumas obras literárias relacionadas a esse tema:
-    </h2>
+    <div class="links">
+        <h2><a href="#oque">O que é?</a></h2>
+        <h2><a href="#origem">Qual a origem?</a></h2>
+        <h2><a href="#filosofos">Quais os principais filósofos?</a></h2>
+        <h2><a href="#obras">Obras relacionadas a Metafísica.</a></h2>
+    </div>
 
-    <p>
-        <img src="img/livro1.jpg" alt="obra o ser e o nada." height="500px">
-    </p>
-    <h3>"O ser e o nada."- Sartre Jean Paul.</h3>
+    <hr>
 
-    <h4>O livro retrata profundamente questões como a natureza da existência humana e da "liberdade".
-        O autor argumenta que não temos uma essência predefinida, somos livres para criar nosso próprio significado
-        através das escolhas.</h4>
+    <div class="texto">
+        <section id="oque">
+            <h2>Metafísica</h2>
+            <p>A Metafísica é uma das áreas da filosofia que consiste em compreender toda a natureza da realidade, do
+                ser,
+                da
+                existência e do universo como um todo. Ou seja, ela vai totalmente além do que é tangível. Assim,
+                optando
+                por uma
+                lógica mais complexa do que realmente existe.</p>
 
-    <p>
-        <img src="img/livro2.jpg" alt="obra alem do bem e do mal." height="500px">
-    </p>
-    <h3>"Além do bem e do mal."- Friedrich Nietzsche.</h3>
+            <p>Ao investigar questões como a natureza do tempo, do espaço, da causalidade, e da identidade, a Metafísica
+                desafia os limites da compreensão humana. Ela se preocupa com temas como a existência de Deus, a
+                imortalidade da alma, a liberdade do ser humano, e a relação entre mente e corpo. Esses temas
+                frequentemente escapam à observação empírica e à lógica formal, exigindo uma abordagem mais especulativa
+                e introspectiva. Por isso, a Metafísica é frequentemente vista como uma disciplina complexa e abstrata,
+                onde diferentes interpretações e teorias coexistem e são debatidas por filósofos ao longo dos séculos.
 
-    <h4> A obra critica a moral tradicional e tenta influenciar as pessoas a criar seus próprios valores baseados em
-        suas moralidades internas.
-        Há um estímulo para que a sociedade passe a ter uma vida mais criativa e autêntica. </h4>
+            </p>
+            <p>
+                Além disso, a Metafísica não é apenas uma busca por respostas definitivas, mas também uma exploração
+                contínua das perguntas mais fundamentais sobre a realidade. Essa característica faz dela uma área de
+                estudo que permanece sempre aberta e dinâmica, constantemente desafiada e renovada por novas correntes
+                de pensamento. Ao longo da história, a Metafísica tem influenciado profundamente outras áreas da
+                filosofia, como a epistemologia e a ética, bem como disciplinas fora da filosofia, incluindo a teologia,
+                a ciência, e até a arte.</p>
 
-    <img src="img/livro3.jpg" alt="obra metafísica." height="500px">
+        </section>
 
-    <h3>"Metafísica." - Aristóteles.</h3>
-    <h4>Esta obra de Aristóteles aborda de maneira mais explorada os assuntos fundamentais do que é a realidade e o que
-        significa existir.
-        Em resumo, é uma busca profunda para entender a natureza da realidade e da existência.
-    </h4>
+        <section id="origem">
+            <h2>Origem</h2>
+            <p>O termo "metafísica" tem suas raízes na Grécia Antiga, porque Aristóteles criou o termo "meta ta physika"
+                para
+                se referir aos estudos que vão além da física, ou melhor, além do mundo material. A partir disso, a
+                metafísica
+                se tornou uma das áreas centrais da filosofia ocidental e foi abordada por vários filósofos ao longo da
+                história.</p>
+
+            <p>Aristóteles não utilizou o termo "Metafísica" em vida, mas seu pensamento influenciou enormemente a forma
+                como a disciplina foi entendida e desenvolvida. Ele abordou questões como a substância, a causa
+                primeira, e a existência de seres imateriais, que se tornaram centrais na discussão metafísica. O
+                impacto de suas ideias foi tão grande que a Metafísica aristotélica moldou o pensamento filosófico
+                ocidental por séculos, tornando-se uma referência obrigatória para os filósofos subsequentes.
+            </p>
+            <p>
+                Com o tempo, a Metafísica se tornou uma das áreas centrais da filosofia ocidental e foi abordada por
+                diversos filósofos ao longo da história, como Platão, que explorou a ideia dos mundos sensível e
+                inteligível, e Kant, que questionou os limites da razão humana em relação ao conhecimento metafísico.
+                Durante a Idade Média, a Metafísica também foi amplamente debatida por teólogos e filósofos cristãos,
+                como Tomás de Aquino, que tentou harmonizar o pensamento aristotélico com a doutrina cristã.
+            </p>
+            <p>
+                Na era moderna, a Metafísica continuou a evoluir, desafiada por novos desenvolvimentos na ciência e na
+                filosofia. Filósofos como Descartes, Leibniz, e Hegel ofereceram novas perspectivas sobre questões
+                metafísicas, enquanto outros, como os empiristas britânicos e os positivistas lógicos, questionaram a
+                validade da Metafísica como disciplina. No entanto, mesmo em face dessas críticas, a Metafísica continua
+                a ser uma área vibrante e essencial da filosofia, buscando responder às perguntas mais profundas sobre a
+                natureza da realidade e do ser.</p>
+        </section>
+
+        <section id="filosofos">
+            <h2>Principais filósofos</h2>
+            <b>Os principais filósofos que contribuíram para o grande desenvolvimento da metafísica, podemos citar:</b>
+            <ul>
+                <li>Platão: Afirmava que as ideias universais é a verdadeira realidade por trás do que realmente vemos.
+                </li>
+                <li>Aristóteles: Discutiu sobre a essência e a causa de tudo na natureza.</li>
+                <li>Descartes: Pensou sobre a mente e o corpo serem coisas distintas.</li>
+                <li>Kant: Descobriu os limites do que podemos saber sobre a realidade, ou seja, todo conhecimento
+                    humano.
+                </li>
+                <li>Hegel: Desenvolveu uma visão da realidade em constante mudança.</li>
+                <li>Plotino: Citou sobre uma única fonte de toda a realidade.</li>
+                <li>Spinoza: Propôs que tudo é uma expressão de uma única substância.</li>
+                <li>Leibniz: Criou a ideia das mônadas como unidades fundamentais da realidade.</li>
+                <li>Nietzsche: Questionou a busca por verdades absolutas.</li>
+            </ul>
+
+            <div class="filosofos">
+                <div class="filosofo">
+                    <img src="img/platao.jpeg" alt="">
+                    <h4>Platão <br> (428/427 a.C - 348/347 a.C)</h4>
+                </div>
+
+                <div class="filosofo">
+                    <img src="img/aristoteles.jpeg" alt="">
+                    <h4>Aristóteles <br> (384 a.C - 322 a.C)</h4>
+                </div>
+                <div class="filosofo">
+                    <img src="img/descartes.jpeg" alt="">
+                    <h4>Descartes <br> (1596-1650)</h4>
+                </div>
+
+                <div class="filosofo">
+                    <img src="img/kant.jpeg" alt="">
+                    <h4>Kant <br> (1724-1804)</h4>
+                </div>
+                <div class="filosofo">
+                    <img src="img/hegel.jpeg" alt="">
+                    <h4>Hegel <br> (1770-1831)</h4>
+                </div>
+                <div class="filosofo">
+                    <img src="img/plotino.jpeg" alt="">
+                    <h4>Plotino <br> (270 d.C)</h4>
+                </div>
+                <div class="filosofo">
+                    <img src="img/spinoza.jpeg" alt="">
+                    <h4>Spinoza <br> (1632-1677)</h4>
+                </div>
+
+                <div class="filosofo">
+                    <img src="img/Leibniz.jpeg" alt="">
+                    <h4>Leibniz <br> (1646-1716)</h4>
+                </div>
+                <div class="filosofo">
+                    <img src="img/Nietzsche.jpeg" alt="">
+                    <h4>Nietzsche <br> (1844-1900)</h4>
+                </div>
 
 
-    Para mais Informações, acesse outros sites para ter entendimento melhor sobre o assunto.
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="obras">
+            <h2>Agora que você possui um pouco de compreensão do que é a metafísica.<br>
+                Veja algumas obras literárias relacionadas a esse tema:</h2>
+
+
+            <div class="livros">
+                <div class="livro">
+                    <h3>"O ser e o nada." - Sartre Jean Paul.</h3>
+                    <img src="img/livro1.jpg" alt="obra o ser e o nada." height="500px">
+
+                    <h4>O livro retrata profundamente questões como a natureza da existência humana e da "liberdade". O
+                        autor
+                        argumenta que não temos uma essência predefinida, somos livres para criar nosso próprio
+                        significado
+                        através
+                        das escolhas.</h4>
+                </div>
+
+                <div class="livro">
+                    <h3>"Além do bem e do mal." - Friedrich Nietzsche.</h3>
+                    <img src="img/livro2.jpg" alt="obra além do bem e do mal." height="500px">
+                    <h4>A obra critica a moral tradicional e tenta influenciar as pessoas a criar seus próprios valores
+                        baseados
+                        em
+                        suas moralidades internas.</h4>
+                </div>
+
+                <div class="livro">
+                    <h3>"Metafísica." - Aristóteles. <br><br></h3>
+                    <img src="img/livro3.jpg" alt="obra metafísica." height="500px">
+                    <h4>Esta obra de Aristóteles aborda de maneira mais explorada os assuntos fundamentais do que é a
+                        realidade e o que significa existir.</h4>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <article>
+        <button class="scrollTop" onclick="backTop();">
+            <img src="img/scroll.png" alt="">
+        </button>
+    </article>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
 </body>
 
 </html>
